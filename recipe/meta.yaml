@@ -1,5 +1,5 @@
 {% set name = "django-denied" %}
-{% set version = "1.0" %}
+{% set version = "1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/django-denied-{{ version }}.tar.gz
-  sha256: ce227c5dd8ed233be3e89d455a8cbbbdf5116e0d2f2168ef1a73a7e697ba32ff
+  sha256: 217ba6568c2a63c0284215c840a4b67cb959407d90f077ff068f0e5d4351912d
 
 build:
   noarch: python
